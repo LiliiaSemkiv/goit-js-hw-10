@@ -1,0 +1,23 @@
+.loader{
+    font-size: 20px;
+}
+
+.error{
+    font-size: 25px;
+    color: #FF0000;
+}
+
+.cat-info{
+    display: flex;
+    gap: 50px;
+    /* background-color: #FFFFE0; */
+    /* width: 1200; */
+}
+
+.cat-description{
+    width: 800;
+}
+
+.cat-p-temperament{
+    width: 500;
+}
