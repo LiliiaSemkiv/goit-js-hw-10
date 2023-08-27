@@ -21,3 +21,7 @@
 .cat-p-temperament{
     width: 500;
 }
+
+.hidden{
+    display: none;
+}

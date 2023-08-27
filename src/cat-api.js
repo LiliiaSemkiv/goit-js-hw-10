@@ -16,6 +16,13 @@ export function fetchBreed() {
 }
 
 export function fetchCatByBreed(breedId) {
+    Loading.arrows('Searching...', {
+        svgColor: 'rgba(0,0,0,0.8)',
+        backgroundColor: 'rgba(0,0,0,0.5)',
+        messageColor: 'rgba(0,0,0,0.8)',
+        messageFontSize: "24px"
+      });
+
   const searchParams = new URLSearchParams({
     breed_ids: breedId,
     api_key:

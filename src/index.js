@@ -56,3 +56,9 @@ function createCatImg(breed) {
     })
     .join('');
 }
+
+const loaderEl = document.querySelector('.loader');
+const errorEl = document.querySelector('.error');
+
+loaderEl.classList.add('hidden');
+errorEl.classList.add('hidden');
